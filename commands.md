@@ -1,5 +1,9 @@
 # Commands
 
-```kubectl cluster-info```
+```kubectl
+kubectl cluster-info
+```
 
-```kubectl get nodes```
+```kubectl
+kubectl get nodes
+```
