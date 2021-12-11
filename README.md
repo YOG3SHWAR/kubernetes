@@ -1,5 +1,8 @@
 # Kubernetes
 
+<details>
+<summary>Notes</summary>
+
 * Components -
   * API Server
     1. acts as a front-end for kubernetes
@@ -18,3 +21,18 @@
 * master node has `kube-apiserver` & worker nodes have `kubelet` agent
 * `kubelet` agent interacts with the master node
 * master node contains `kube-apiserver`, `etcd`, `controller`, `scheduler`
+
+</details>
+
+<details>
+<summary>Commands</summary>
+
+```kubectl
+kubectl cluster-info
+```
+
+```kubectl
+kubectl get nodes
+```
+
+</details>
