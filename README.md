@@ -41,10 +41,20 @@ deploy a pod `<pod-name>` (default image is from docker hub) -
 kubectl run <pod-name> --image <image>
 ```
 
+```kubectl
+kubectl create -f <yml-file>
+```
+
 get all pods -
 
 ```kubectl
-kubectl run <pod-name> --image <image>
+kubectl get pods
+```
+
+describe pod -
+
+```kubectl
+kubectl describe pod <pod-name>
 ```
 
 </details>
