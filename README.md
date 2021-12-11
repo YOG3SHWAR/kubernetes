@@ -35,4 +35,16 @@ kubectl cluster-info
 kubectl get nodes
 ```
 
+deploy a pod `<pod-name>` (default image is from docker hub) -
+
+```kubectl
+kubectl run <pod-name> --image <image>
+```
+
+get all pods -
+
+```kubectl
+kubectl run <pod-name> --image <image>
+```
+
 </details>
