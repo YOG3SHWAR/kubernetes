@@ -57,4 +57,10 @@ describe pod -
 kubectl describe pod <pod-name>
 ```
 
+extract pod definiton file from already created pod-
+
+```kubectl
+kubectl get pod <pod-name> -o yaml > pod-definition.yaml
+```
+
 </details>
