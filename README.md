@@ -21,6 +21,7 @@
 * master node has `kube-apiserver` & worker nodes have `kubelet` agent
 * `kubelet` agent interacts with the master node
 * master node contains `kube-apiserver`, `etcd`, `controller`, `scheduler`
+* [kubectl Usage Conventions](https://kubernetes.io/docs/reference/kubectl/conventions/)
 
 </details>
 
