@@ -63,4 +63,18 @@ extract pod definiton file from already created pod-
 kubectl get pod <pod-name> -o yaml > pod-definition.yaml
 ```
 
+Here are some of the commonly used formats:
+
+`-o jsonOutput` a JSON formatted API object.
+
+`-o namePrint` only the resource name and nothing else.
+
+`-o wideOutput` in the plain-text format with any additional information.
+
+`-o yamlOutput` a YAML formatted API object.
+
+```kubectl
+kubectl [command] [TYPE] [NAME] -o <output_format>
+```
+
 </details>
