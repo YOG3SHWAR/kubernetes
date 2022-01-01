@@ -78,4 +78,9 @@ Here are some of the commonly used formats:
 kubectl [command] [TYPE] [NAME] -o <output_format>
 ```
 
+Create a configMap
+```kubectl
+kubectl create configmap webapp-config-map --from-literal=APP_COLOR=darkblue
+```
+
 </details>
