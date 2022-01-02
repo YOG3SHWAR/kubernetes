@@ -112,4 +112,16 @@ kubectl top node
 kubectl top pod
 ```
 
+match labels and get the pod
+
+```kubectl
+kubectl get pods --selector env=dev
+```
+
+match labels and get the pod, no headers will remove the header and wc -l will give the count
+
+```kubectl
+kubectl get pods --selector bu=finance --no-headers | wc -l
+```
+
 </details>
