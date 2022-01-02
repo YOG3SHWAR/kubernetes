@@ -102,4 +102,14 @@ logs of container inside a pod
 kubectl logs webapp-2 -c simple-webapp
 ```
 
+metric server
+
+```kubectl
+git clone https://github.com/kodekloudhub/kubernetes-metrics-server.git
+cd kubernetes-metrics-server/
+kubectl create -f .
+kubectl top node
+kubectl top pod
+```
+
 </details>
