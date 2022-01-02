@@ -84,10 +84,22 @@ Create a configMap
 kubectl create configmap webapp-config-map --from-literal=APP_COLOR=darkblue
 ```
 
-Getuser of pod
+Get user of pod
 
 ```kubectl
 kubectl exec ubuntu-sleeper -- whoami
+```
+
+label a node
+
+```kubectl
+kubectl label node node01 color=blue
+```
+
+logs of container inside a pod
+
+```kubectl
+kubectl logs webapp-2 -c simple-webapp
 ```
 
 </details>
