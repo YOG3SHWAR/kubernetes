@@ -22,6 +22,7 @@
 * `kubelet` agent interacts with the master node
 * master node contains `kube-apiserver`, `etcd`, `controller`, `scheduler`
 * [kubectl Usage Conventions](https://kubernetes.io/docs/reference/kubectl/conventions/)
+* [Persistent Volumes](https://kubernetes.io/docs/concepts/storage/persistent-volumes/#claims-as-volumes)
 
 </details>
 
@@ -122,6 +123,15 @@ match labels and get the pod, no headers will remove the header and wc -l will g
 
 ```kubectl
 kubectl get pods --selector bu=finance --no-headers | wc -l
+```
+
+```kubectl
+kubectl get all --all-namespaces
+```
+
+Get ingress resources in all namespaces
+```kubectl
+kubectl get ingress --all-namespaces
 ```
 
 </details>
