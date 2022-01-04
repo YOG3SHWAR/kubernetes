@@ -130,8 +130,21 @@ kubectl get all --all-namespaces
 ```
 
 Get ingress resources in all namespaces
+
 ```kubectl
 kubectl get ingress --all-namespaces
+```
+
+Get context of kubeconfig, here `my-kube-config` is the file name 
+
+```kubectl
+kubectl config current-context --kubeconfig my-kube-config
+```
+
+Set context of kubeconfig, here `my-kube-config` is the file name and `research` is the context defined in kubeconfig
+
+```kubectl
+kubectl config --kubeconfig=/root/my-kube-config use-context research
 ```
 
 </details>
