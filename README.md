@@ -147,4 +147,10 @@ Set context of kubeconfig, here `my-kube-config` is the file name and `research`
 kubectl config --kubeconfig=/root/my-kube-config use-context research
 ```
 
+Can check if the user has access to get the pods
+
+```kubectl
+kubectl get pods --as dev-user
+```
+
 </details>
